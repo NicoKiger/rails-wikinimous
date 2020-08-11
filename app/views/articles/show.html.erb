@@ -1,0 +1,15 @@
+<div class="banner">
+  <div class="banner-content">
+      <h1>⚽️ Le football circus 🐐</h1>
+      <p>Des articles de fond sur les plus grosses chèvres du foot!</p>
+      <%= link_to 'Edit player', edit_article_path(@article), class: "btn-treehouse" %>
+  </div>
+</div>
+
+<div class="container">
+  <div class="card">
+    <h2><%= @article.title %></h2>
+    <h3><%= @article.content %></h3>
+  </div>
+</div>
+

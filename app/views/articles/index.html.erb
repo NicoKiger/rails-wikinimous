@@ -1,0 +1,19 @@
+<div class="banner">
+  <div class="banner-content">
+      <h1>⚽️ Le football circus 🐐</h1>
+      <p>Des articles de fond sur les plus grosses chèvres du foot!</p>
+      <%= link_to 'New player', new_article_path, class: "btn-treehouse" %>
+  </div>
+</div>
+
+<div class="container">
+  <ul>
+    <% @articles.each do |article| %>
+      <li><%= link_to article.title, article_path(article), class: "link" %> ----> <%= link_to "🚮",
+            article_path(article),
+            method: :delete,
+            data: { confirm: "Are you sure?" } %>
+      </li>
+    <% end %>
+  </ul>
+</div>

@@ -1,0 +1,81 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.btn-treehouse {
+  background-color: #3BC162;
+  color:white;
+  border: 1px solid #3BC162;
+  border-radius: 10px;
+  padding: 10px 22px;
+  font-weight: bolder;
+  font-size: 20px;
+  opacity: 0.9;
+  display: inline-block;
+  margin: 15px 0px;
+}
+
+.btn-treehouse:hover {
+  opacity: 1;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  color:white;
+}
+
+.banner {
+  height: 250px;
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("https://images.pexels.com/photos/47343/the-ball-stadion-horn-corner-47343.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: cover;
+  color:white;
+  font-size: 25px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-content {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.banner-content p {
+  opacity: 1;
+}
+
+ul {
+  height: 500px;
+  text-align: center;
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("https://images.pexels.com/photos/978695/pexels-photo-978695.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.card {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  text-align: center;
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("https://images.pexels.com/photos/390025/pexels-photo-390025.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: cover;
+  color: white;
+  font-size: 30px;
+  margin: 0px;
+  padding: 0px;
+}

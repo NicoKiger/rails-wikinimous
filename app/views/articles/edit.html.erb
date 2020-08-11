@@ -1,0 +1,17 @@
+<div class="banner">
+  <div class="banner-content">
+      <h1>⚽️ Le football circus 🐐</h1>
+      <p>Des articles de fond sur les plus grosses chèvres du foot!</p>
+      <p>EDIT</p>
+  </div>
+</div>
+
+<div class="container">
+  <%= form_for(@article) do |f| %>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+    <%= f.label :content %>
+    <%= f.text_field :content %>
+    <%= f.submit %>
+  <% end %>
+</div>
